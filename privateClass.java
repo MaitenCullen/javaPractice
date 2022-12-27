@@ -2,11 +2,16 @@ public class privateClass {
    
     public static void Main (String[] args) {
         Persona persona1 = new Persona();
+
         persona1.setNombre("pepito");
         System.out.println(persona1.getNombre());
 
         persona1.setEdad(19);
         System.out.println(persona1.getEdad());
+
+        persona1.setTelefono(341354307);
+        System.out.println(persona1.getTelefono());
+
     }
 }
 
