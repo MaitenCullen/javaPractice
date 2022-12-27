@@ -3,7 +3,10 @@ public class privateClass {
     public static void Main (String[] args){
         Persona persona1 = new Persona();
         persona1.setNombre('pepito');
-        system.out.println(persona1.getNombre(););
+        System.out.println(persona1.getNombre(););
+
+        persona1.setEdad(19);
+        System.out.println(persona1.getEdad(););
     }
 }
 
@@ -12,22 +15,22 @@ class Persona {
     private String nombre;
     private int telefono;
 
-    public void setEdad(String edad) {
+    public void setEdad(int edad) {
         this.edad = edad; 
     }
-    public String getEdad(){
+    public int getEdad(){
         return this.edad;
     }
-    public String serNombre(String nombre) {
+    public String setNombre(String nombre) {
         this.nombre = nombre; 
     }
     public String getNombre(){
         return this.nombre;
     }
-    public void setTelefono(String telefono) {
+    public void setTelefono(int telefono) {
         this.telefono = telefono; 
     }
-    public String getTelefono() (){
+    public int getTelefono() (){
         return this.telefono;
     }
 }

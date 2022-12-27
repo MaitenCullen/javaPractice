@@ -1,0 +1,19 @@
+{
+  "name": "javapractice",
+  "version": "1.0.0",
+  "description": "practicaJava",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MaitenCullen/javaPractice.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MaitenCullen/javaPractice/issues"
+  },
+  "homepage": "https://github.com/MaitenCullen/javaPractice#readme"
+}
