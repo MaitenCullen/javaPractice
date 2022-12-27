@@ -1,12 +1,12 @@
 public class privateClass {
-    
-    public static void Main (String[] args){
+   
+    public static void Main (String[] args) {
         Persona persona1 = new Persona();
-        persona1.setNombre('pepito');
-        System.out.println(persona1.getNombre(););
+        persona1.setNombre("pepito");
+        System.out.println(persona1.getNombre());
 
         persona1.setEdad(19);
-        System.out.println(persona1.getEdad(););
+        System.out.println(persona1.getEdad());
     }
 }
 
@@ -21,7 +21,7 @@ class Persona {
     public int getEdad(){
         return this.edad;
     }
-    public String setNombre(String nombre) {
+    public void setNombre(String nombre) {
         this.nombre = nombre; 
     }
     public String getNombre(){
@@ -30,7 +30,7 @@ class Persona {
     public void setTelefono(int telefono) {
         this.telefono = telefono; 
     }
-    public int getTelefono() (){
+    public int getTelefono(){
         return this.telefono;
     }
 }
